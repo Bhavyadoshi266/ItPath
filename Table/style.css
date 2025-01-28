@@ -1,8 +1,11 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -55,7 +58,7 @@ td {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 20px;
     color: grey;
 }
 
@@ -83,12 +86,14 @@ td {
 
 .tableno {
     margin: 0 10px;
+    padding: 0 5px;
     cursor: pointer;
     width: 80px;
     height: 30px;
     color: gray;
     border: 1px solid #ddd;
     border-radius: 5px;
+    box-shadow: 0px 2px;
 }
 
 input {
@@ -99,4 +104,7 @@ input {
     border-radius: 4px;
     padding: 4px;
     margin: 0 4px;
+    box-shadow: 0px 2px;
+    color: gray;
+
 }
